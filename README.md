@@ -26,9 +26,7 @@ Built from scratch using **React, Node.js, Express.js, MongoDB, JWT, and REST AP
 
 ---
 
-## 🚀 Live Demo
 
-<!-- Add your live frontend URL here -->
 
 ---
 
