@@ -34,7 +34,27 @@ Built from scratch using **React, Node.js, Express.js, MongoDB, JWT, and REST AP
 
 ## 📸 Screenshots & Results
 
-<!-- Add screenshots of the Login, Register, Dashboard, Add/Edit Application, Search/Filter, and Statistics sections here -->
+## Screenshots & Results
+
+### Login
+
+![Login Page](./screenshots/login.png)
+
+### Register
+
+![Register Page](./screenshots/register.png)
+
+### Dashboard
+
+![Dashboard](./screenshots/dashboard.png)
+
+### Add / Edit Application
+
+![Application Form](./screenshots/add-application.png)
+
+### Search & Filter
+
+![Search and Filter](./screenshots/search-filter.png)
 
 ---
 
