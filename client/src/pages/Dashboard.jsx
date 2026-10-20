@@ -36,9 +36,9 @@ function Dashboard() {
         error.message === "Invalid or expired token" ||
         error.message === "Not authorized"
       ) {
-        localStorage.removeItem("token");
         localStorage.removeItem("user");
-        navigate("/login");
+        localStorage.removeItem("token");
+        navigate("/login", { replace: true });
         return;
       }
 
@@ -50,7 +50,7 @@ function Dashboard() {
 
   useEffect(() => {
     if (!localStorage.getItem("token")) {
-      navigate("/login");
+      navigate("/login", { replace: true });
       return;
     }
 
